@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agency.tango.materialintroscreen.parallax.ParallaxRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".fragment.TermsConditionFragment">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Termos e condições de uso!"
+        app:layout_parallaxFactor="0.6" />
+
+    <ScrollView
+        android:id="@+id/scvTermo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/cbxTermo"
+        android:layout_below="@+id/tvTitulo">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Descrição do termo de uso." />
+    </ScrollView>
+
+    <CheckBox
+        android:id="@+id/cbxTermo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:text="Concordo com o termo de uso."
+        android:textColor="@android:color/white"
+        app:layout_parallaxFactor="0.9" />
+</agency.tango.materialintroscreen.parallax.ParallaxRelativeLayout>

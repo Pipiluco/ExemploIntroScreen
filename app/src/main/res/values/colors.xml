@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="botao_slide">#546e7a</color>
+    <color name="slide01">#9ccc65</color>
+    <color name="slide02">#ff1744</color>
+    <color name="slide03">#ffc400</color>
+    <color name="slide04">#ef5350</color>
+</resources>

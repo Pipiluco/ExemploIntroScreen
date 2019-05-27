@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exemplo Intro Screen</string>
+
+    <string name="grant_permissions">Liberar permissões</string>
+    <string name="mis_grant_permissions">Liberar permissões</string>
+    <string name="please_grant_permissions">Para poder prosseguir é importante liberar as permissões de localização</string>
+
+    <string name="checkbox_erro">Você precisa aceitar o termo de uso para continuar!</string>
+</resources>
